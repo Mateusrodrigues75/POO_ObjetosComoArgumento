@@ -110,6 +110,10 @@ namespace POO_ObjetosComoArgumento
                     case 5:
 
                         break;
+                    case 0:
+                    Console.WriteLine($"Muito Obrogado por Acessar!");
+                    
+                        return;
                     default:
                     Console.WriteLine($"Opção Inválida");
                     
@@ -120,11 +124,6 @@ namespace POO_ObjetosComoArgumento
                 
             } while (opcao !=0);
             
-        }
-
-        private static void MostrarProdutos()
-        {
-            throw new NotImplementedException();
         }
     }
 }
