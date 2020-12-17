@@ -25,7 +25,7 @@ namespace POO_ObjetosComoArgumento.classes
            carrinho.Find(x => x.Codigo == _codigo).Preco = _novoProduto.Preco;
        }
 
-       public void MostrarProdutos()
+       public void MostrarProdutosCarrinho()
        {
            if (carrinho != null)
            {

@@ -1,8 +1,12 @@
+using System;
+using System.Collections.Generic;
+
 namespace POO_ObjetosComoArgumento.classes
 {
     public class Produto
     {
 
+        List<Produto> produtos = new List<Produto>();
         public int Codigo { get; set; }
         public string Nome { get; set; }
         
@@ -17,7 +21,6 @@ namespace POO_ObjetosComoArgumento.classes
             Nome = _nome;
             Preco = _preco;
         }
-        
         
         
     }
